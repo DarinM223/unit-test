@@ -1,0 +1,8 @@
+package github.com/DarinM223/unit-test
+
+require {
+  github.com/DarinM223/generic 0.0.7 #5c4c092658240a14177ba2e2fdd5276c9b167407
+  github.com/DarinM223/prettier 0.0.3 #e16d248460a4985367489cf2298d0277f799d05a
+  github.com/DarinM223/random 0.0.4 #2fabd921bd833bbecb73bcb62e6587479c352911
+  github.com/DarinM223/extended-basis 0.0.7 #48f2e01e7385928f8901fa29153647b4dc025ce7
+}
