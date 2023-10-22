@@ -5,18 +5,18 @@
  *)
 
 local
-   $(MLTON_LIB)/com/ssh/generic/unstable/lib.mlb
-   $(MLTON_LIB)/com/ssh/random/unstable/lib.mlb
+   ../../../generic/lib.mlb
+   ../../../random/lib.mlb
 in
-   $(MLTON_LIB)/com/ssh/generic/unstable/with/generic.sml
-   $(MLTON_LIB)/com/ssh/generic/unstable/with/eq.sml
-   $(MLTON_LIB)/com/ssh/generic/unstable/with/type-hash.sml
-   $(MLTON_LIB)/com/ssh/generic/unstable/with/type-info.sml
-   $(MLTON_LIB)/com/ssh/generic/unstable/with/hash.sml
-   $(MLTON_LIB)/com/ssh/generic/unstable/with/ord.sml
-   $(MLTON_LIB)/com/ssh/generic/unstable/with/pretty.sml
-   $(MLTON_LIB)/com/ssh/generic/unstable/with/arbitrary.sml
-   $(MLTON_LIB)/com/ssh/generic/unstable/with/size.sml
-   $(MLTON_LIB)/com/ssh/generic/unstable/with/shrink.sml
-   $(MLTON_LIB)/com/ssh/generic/unstable/with/close-pretty-with-extra.sml
+   ../../../generic/with/generic.sml
+   ../../../generic/with/eq.sml
+   ../../../generic/with/type-hash.sml
+   ../../../generic/with/type-info.sml
+   ../../../generic/with/hash.sml
+   ../../../generic/with/ord.sml
+   ../../../generic/with/pretty.sml
+   ../../../generic/with/arbitrary.sml
+   ../../../generic/with/size.sml
+   ../../../generic/with/shrink.sml
+   ../../../generic/with/close-pretty-with-extra.sml
 end

@@ -5,16 +5,16 @@
  *)
 
 group
-   library($APPLICATION/generic.cm)
-   library($MLTON_LIB/com/ssh/extended-basis/unstable/basis.cm)
-   library($MLTON_LIB/com/ssh/generic/unstable/lib.cm)
-   library($MLTON_LIB/com/ssh/random/unstable/lib.cm)
+   library(./example/app/generic.cm)
+   library(../extended-basis/basis.cm)
+   library(../generic/lib.cm)
+   library(../random/lib.cm)
    library(detail/sorted-list.cm)
    library(lib.cm)
 is
-   $APPLICATION/generic.cm
-   $MLTON_LIB/com/ssh/extended-basis/unstable/basis.cm
-   $MLTON_LIB/com/ssh/generic/unstable/lib.cm
-   $MLTON_LIB/com/ssh/random/unstable/lib.cm
+   ./example/app/generic.cm
+   ../extended-basis/basis.cm
+   ../generic/lib.cm
+   ../random/lib.cm
    detail/sorted-list.cm
    lib.cm

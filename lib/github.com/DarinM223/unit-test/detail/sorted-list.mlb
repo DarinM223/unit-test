@@ -5,7 +5,7 @@
  *)
 
 local
-   $(MLTON_LIB)/com/ssh/extended-basis/unstable/basis.mlb
+   ../../extended-basis/basis.mlb
 in
    ann
       "forceUsed"

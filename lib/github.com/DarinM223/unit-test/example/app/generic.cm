@@ -7,6 +7,6 @@
 library
    source(-)
 is
-   $MLTON_LIB/com/ssh/generic/unstable/lib.cm
-   $MLTON_LIB/com/ssh/random/unstable/lib.cm
+   ../../../generic/lib.cm
+   ../../../random/lib.cm
    generic.sml

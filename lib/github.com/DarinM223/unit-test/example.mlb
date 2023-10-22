@@ -5,23 +5,20 @@
  *)
 
 lib.mlb (* This should preferably be the first *)
-
-$(MLTON_LIB)/com/ssh/extended-basis/unstable/basis.mlb
-$(MLTON_LIB)/com/ssh/generic/unstable/lib.mlb
-
-$(APPLICATION)/generic.mlb
-
-detail/sorted-list.mlb
+../extended-basis/basis.mlb
+../generic/lib.mlb
+./example/app/generic.mlb
+./detail/sorted-list.mlb
 
 local
    ann
       "sequenceNonUnit warn"
       "warnUnused true"
    in
-      example/assoc-test.sml
-      example/qc-test.sml
-      example/rev-test.sml
-      example/sms-test.sml
+      ./example/assoc-test.sml
+      ./example/qc-test.sml
+      ./example/rev-test.sml
+      ./example/sms-test.sml
    end
 in
 end
